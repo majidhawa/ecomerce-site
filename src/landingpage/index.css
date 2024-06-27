@@ -1,0 +1,47 @@
+.landing-page{
+    display: flex;
+    align-items: center;
+    
+    background-color: #b3f8d5;
+}
+h4{
+    font-weight: bold;
+    color: rgb(30, 105, 7);
+    font-size: xx-large;
+}
+.landing-left{
+    margin: 5%;
+    
+}
+.landing-image{
+    object-fit: fill;
+    width: 660px;
+    margin-left: 20px;
+}
+.landing-right{
+    margin:4%;
+    padding-left: 5%;
+}
+h1{
+    flex-wrap: wrap;
+    font-size: 56px;
+    color: black;
+}
+.p{
+    color: grey;
+    font-size: 25px;
+}
+button {
+  
+
+    margin-left: 40px;
+    padding: 10px 20px; 
+    font-size: 16px;
+    background-color: #074d2a;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+}
