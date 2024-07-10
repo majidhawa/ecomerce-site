@@ -11,7 +11,10 @@ const Navbar = () => {
        <div className='search-container'>
         <form>
           <input type="text" placeholder="Search.." name="search"/>
-          <button type="submit">< FaSearch color='blue'  /></button>
+          <button type="submit">
+              <FaSearch className="custom-icon-style" />
+         </button>
+
         </form>
         </div>
       <div className='nav'>

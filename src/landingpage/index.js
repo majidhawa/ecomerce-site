@@ -9,10 +9,10 @@ const LandingPage =()=>{
      <h4> Welcome to Shopify</h4>
      <h1>Bringing the world to your doorstep.Shop today enjoy tomorrow</h1>
      <p className='p'>Discover the finest products frm around the world, all in one place.whether its
-     <br/> fashion,electronices,home essentials
-        we've got you covered. SHOP SMART!
-     </p>
-     <button>Shop Now  &#x2192;</button>
+      fashion,electronices,home essentials
+     we've got you covered. SHOP SMART!
+    </p><br></br>
+    <button className='button1'>Shop Now  &#x2192;</button>
     </div>
     <div className='landing-left'> 
       <img src={landingimage} alt="landing"  className="landing-image"/>
